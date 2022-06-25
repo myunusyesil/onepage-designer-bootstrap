@@ -3,38 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: sans-serif;
 }
+
 .navbar {
     position: fixed;
     background-image: linear-gradient(to right, #690372, #9b31a5);
 }
+
 #navbarNav {
     justify-content: flex-end;
 
 }
+
 .navbar-brand img {
     height: 30px;
 }
-.navbar-nav a{
+
+.navbar-nav a {
     color: whitesmoke;
 }
+
 .navbar-nav li a:hover {
     padding: 8px 16px;
     color: whitesmoke;
     border-radius: 4px;
-    background-color:  #7a0785;
+    background-color: #7a0785;
     transition: 0.2s;
 }
+
 .navbar-nav li a {
     float: right;
 }
+
 .navbar-toggler {
     float: right;
     outline: none;
     border: none;
 }
+
 .fa-bars {
     color: whitesmoke;
 }
@@ -45,43 +54,52 @@ body {
     background-image: linear-gradient(to right, #690372, #9b31a5);
     color: whitesmoke;
 }
+
 #banner h1 {
     font-size: 48px;
     margin-bottom: 1rem;
 }
+
 #banner p {
     margin-bottom: 1rem;
 }
+
 .play-btn {
     width: 20px;
     margin-right: 4px;
 }
+
 #banner a {
     text-decoration: none;
     color: aliceblue;
 }
+
 .img-bottom {
     width: 100%;
 }
+
 /* -------------Services--------------- */
 #services h2 {
     padding-top: 50px;
     margin: 32px;
-
 }
+
 #services img {
     width: 50px;
     margin: 20px;
 }
+
 #services h3 {
     margin: 16px auto;
     text-transform: uppercase;
     font-size: 21px;
 }
+
 .header-style {
     font-size: 32px;
     position: relative;
 }
+
 .header-style::after {
     content: '';
     position: absolute;
@@ -92,6 +110,7 @@ body {
     bottom: -16px;
     left: 50%;
 }
+
 .header-style::before {
     content: '';
     position: absolute;
@@ -102,6 +121,7 @@ body {
     bottom: -18px;
     left: 50%;
 }
+
 .ctn {
     padding: 8px 16px;
     background-color: whitesmoke;
@@ -110,6 +130,7 @@ body {
     border: none;
     border-radius: 8px;
 }
+
 .ctn-dark {
     display: block;
     background-image: linear-gradient(to right, #690372, #9b31a5);
@@ -119,14 +140,16 @@ body {
     padding: 8px 16px !important;
     border-radius: 8px;
     margin-top: 20px;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
 }
+
 /* -------------About us--------------- */
 #about-us {
     padding-top: 50px;
     background: rgb(245, 245, 245);
     padding-bottom: 50px;
 }
+
 #about-us h2 {
     margin-top: 50px;
     margin-bottom: 32px;
@@ -135,63 +158,77 @@ body {
 #about-us h3 {
     margin: 20px auto;
 }
+
 #about-us ul li {
-    list-style:disc;
+    list-style: disc;
     color: #ac07bb;
 }
+
 #about-us ul li p {
     margin: 4px;
     color: rgb(37, 37, 37);
 }
+
 /* -------------Clients--------------- */
 #testimonials {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 #testimonials .col-md-5 {
     border-left: #690372 2px solid;
     padding: 10px auto;
 }
+
 #testimonials h2 {
     margin-top: 50px;
     margin-bottom: 52px;
 }
+
 #testimonials p {
     margin-bottom: 4px;
 }
+
 #testimonials img {
     align-items: flex-start;
     width: 50px;
     border-radius: 50px;
     display: inline-block;
 }
+
 #testimonials .userdetails {
     display: inline-block;
     margin: 8px 16px;
 }
+
 .user-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 /* ----------------Social---------------- */
 #social {
-    padding-top:50px;
+    padding-top: 50px;
     background: rgb(250, 250, 250);
 }
-.social-icons img{
+
+.social-icons img {
     width: 60px;
     margin: auto 21px;
     margin-bottom: 52px;
 }
+
 .social-icons img:hover {
     transform: translateY(-10px);
     transition: 0.3s;
 }
+
 #social h2 {
     margin-top: 50px;
     margin-bottom: 52px;
 }
+
 .img-bottom2 {
     width: 100%;
     background-image: linear-gradient(to right, #690372, #9b31a5);
@@ -205,9 +242,11 @@ footer {
     background-image: linear-gradient(to right, #690372, #9b31a5);
     color: whitesmoke;
 }
+
 footer img {
     margin-bottom: 8px;
 }
+
 footer input {
     margin: 16px auto;
     max-width: 250px;
@@ -215,6 +254,7 @@ footer input {
     border: none;
     padding: 8px 16px;
 }
+
 .fa-arrow-up {
     position: fixed;
     right: 5%;
